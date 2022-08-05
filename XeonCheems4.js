@@ -1090,11 +1090,10 @@ const reactionMessage = {
                         key: { remoteJid: m.chat, fromMe: true, id: quoted.id }
                     }
                 }
-                
                 const timestampe = speed();
 const latensie = speed() - timestampe
                 const menulist = `
-┌─❖│「 Hi👋「${pushname}」
+┌─❖│「Hi👋「${pushname}」
 └┬❖ │How Are You? 😄
 │└────────────┈ ⳹
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
@@ -1105,7 +1104,7 @@ const latensie = speed() - timestampe
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
 │𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length+ 7878}  
+│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length+ 733998}  
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
 └┬────────────┈ ⳹
@@ -3226,7 +3225,7 @@ url: `${global.websitex}`
 }
 }, {
 urlButton: {
-displayText: '🔖WhaTsApp Group🔖 🍜',
+displayText: '🔖WhaTsApp Group🔖',
 url: `${global.botscript}`
 }
 }, {
@@ -3267,7 +3266,7 @@ url: `${global.websitex}`
 }
 }, {
 urlButton: {
-displayText: '🔖WhaTsApp Group🔖 🍜',
+displayText: '🔖WhaTsApp Group🔖',
 url: `${global.botscript}`
 }
 }, {
@@ -3309,7 +3308,7 @@ url: `${global.websitex}`
                                 }
                             }, {
 urlButton: {
-displayText: '🔖WhaTsApp Group🔖 🍜',
+displayText: '🔖WhaTsApp Group🔖',
 url: `${global.botscript}`
 }
 }, {
@@ -7631,7 +7630,7 @@ break
 	        case 'nomerhoki': case 'nomorhoki': {
 			   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-                if (!Number(text)) return reply(`Example : ${prefix + command} 916909137213`)
+                if (!Number(text)) return reply(`Example : ${prefix + command} 212678731209`)
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return reply(anu.message)
                 XeonBotInc.sendText(m.chat, `${themeemoji} *Phone Number :* ${anu.message.nomer_hp}\n${themeemoji} *Shuzi Angka Figures :* ${anu.message.angka_shuzi}\n${themeemoji} *Positive Energy :*\n- Riches : ${anu.message.energi_positif.kekayaan}\n- Health : ${anu.message.energi_positif.kesehatan}\n- Love : ${anu.message.energi_positif.cinta}\n- Stability : ${anu.message.energi_positif.kestabilan}\n- Percentage : ${anu.message.energi_positif.persentase}\n${themeemoji} *Negative Energy :*\n- Dispute : ${anu.message.energi_negatif.perselisihan}\n- Lost : ${anu.message.energi_negatif.kehilangan}\n- Catastrophe : ${anu.message.energi_negatif.malapetaka}\n- Destruction : ${anu.message.energi_negatif.kehancuran}\n- Percentage : ${anu.message.energi_negatif.persentase}`, m)
@@ -8781,7 +8780,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                                 }
                             }, {
                                 callButton: {
-                                    displayText: '🔖WhaTsApp Group🔖 🍜',
+                                    displayText: '🔖WhaTsApp Group🔖',
                                     url: `${botscript}`
                                 }
                             }, {
@@ -8814,7 +8813,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
         	{ urlButton: { displayText: `FaceBook 🍒`, url : `${websitex}` } },
-            { urlButton: { displayText: `🔖WhaTsApp Group🔖 🍜`, url: `${botscript}` } },
+            { urlButton: { displayText: `🔖WhaTsApp Group🔖`, url: `${botscript}` } },
             { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
             { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
             { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }

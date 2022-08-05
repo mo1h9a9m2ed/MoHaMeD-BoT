@@ -58,7 +58,7 @@ global.vcardowner = ['212678731209'] //ur owner number
 global.ownername = "🦄MoHaMeD" //ur owner name
 global.ytname = "https://facebook.com/mo1h9a9m2ed" //ur yt chanel name
 global.socialm = "GitHub: mo1h9a9m2ed" //ur github or insta name
-global.location = "India, MoRoCCo" //ur location
+global.location = ", MoRoCCo" //ur location
 
 //bot bomdy 
 global.owner = ['212678731209']
@@ -69,7 +69,7 @@ global.websitex = "https://facebook.com/mo1h9a9m2ed" //ur website to be displaye
 global.botscript = 'https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV' //script link
 global.reactmoji = "😘" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "MoHaMeD Stickers\n\n\n\n\n\n\n\n\n\n\n🦄🦄🦄 " //ur sticker watermark packname
+global.packname = "MoHaMeD Stickers\n\n\n\n\n🦄🦄🦄 " //ur sticker watermark packname
 global.author = "🦄Dream ElJamJouMi" //ur sticker watermark author
 
 
