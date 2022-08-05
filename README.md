@@ -18,13 +18,13 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 # ```Bot Info```
 <p align="center">
 <a href="https://github.com/DGXeon/followers"><img title="Followers" src="https://img.shields.io/github/followers/DGXeon?color=red&style=flat-square"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD4/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/DGXeon/CheemsBot-MD4?color=blue&style=flat-square"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD4/network/members"><img title="Forks" src="https://img.shields.io/github/forks/DGXeon/CheemsBot-MD4?color=red&style=flat-square"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD4/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/DGXeon/CheemsBot-MD4?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD4"><img title="Open Source" src="https://img.shields.io/badge/Author-Xeon%20Bot%20Inc.-red?v=103"></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD4/"><img title="Size" src="https://img.shields.io/github/repo-size/DGXeon/CheemsBot-MD4?style=flat-square&color=green"></a>
+<a href="https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mo1h9a9m2ed/MoHaMeD-BoT?color=blue&style=flat-square"></a>
+<a href="https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mo1h9a9m2ed/MoHaMeD-BoT?color=red&style=flat-square"></a>
+<a href="https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mo1h9a9m2ed/MoHaMeD-BoT?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/mo1h9a9m2ed/MoHaMeD-BoT"><img title="Open Source" src="https://img.shields.io/badge/Author-Xeon%20Bot%20Inc.-red?v=103"></a>
+<a href="https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/"><img title="Size" src="https://img.shields.io/github/repo-size/mo1h9a9m2ed/MoHaMeD-BoT?style=flat-square&color=green"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDGXeon%2FCheemsBot-MD4&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD4/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
     </p>
@@ -54,18 +54,18 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 
 # Setup For Deployment 👇
 
-- FORK THE REPOSITORY [Here](https://github.com/DGXeon/CheemsBot-MD4/fork)
+- FORK THE REPOSITORY [Here](https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/fork)
 
 ## `Scan QR Code For Session`
 [![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER VCARD [Here](https://github.com/DGXeon/CheemsBot-MD4/blob/master/settings.js#L58)
-- CHANGE OWNER NUMBER MENU [Here](https://github.com/DGXeon/CheemsBot-MD4/blob/master/settings.js#L65)
-- CHANGE OWNER NUMBER TAG [Here](https://github.com/DGXeon/CheemsBot-MD4/blob/master/settings.js#L66)
-- CHANGE OWNER NAME [Here](https://github.com/DGXeon/CheemsBot-MD4/blob/master/settings.js#L59)
-- CHANGE BOT NAME [Here](https://github.com/DGXeon/CheemsBot-MD4/blob/master/settings.js#L67)
+- CHANGE OWNER NUMBER VCARD [Here](https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/blob/master/settings.js#L58)
+- CHANGE OWNER NUMBER MENU [Here](https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/blob/master/settings.js#L65)
+- CHANGE OWNER NUMBER TAG [Here](https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/blob/master/settings.js#L66)
+- CHANGE OWNER NAME [Here](https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/blob/master/settings.js#L59)
+- CHANGE BOT NAME [Here](https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/blob/master/settings.js#L67)
 
 ## ` BUILDPACKS`
 
@@ -74,7 +74,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/CheemsBot-MD4/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mo1h9a9m2ed/MoHaMeD-BoT/)
 
 # Install Manually 👇
 ## `Requirements`
@@ -85,7 +85,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/DGXeon/CheemsBot-MD4.git
+git clone https://github.com/mo1h9a9m2ed/MoHaMeD-BoT.git
 cd CheemsBot-MD4
 
 npm start
@@ -102,7 +102,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/DGXeon/CheemsBot-MD4
+git clone https://github.com/mo1h9a9m2ed/MoHaMeD-BoT
 cd CheemsBot-MD
 npm start
 ```
@@ -114,7 +114,7 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagrmagick
 apt install bash
-git clone https://github.com/DGXeon/CheemsBot-MD4
+git clone https://github.com/mo1h9a9m2ed/MoHaMeD-BoT
 cd CheemsBot-MD4
 npm start
 ```
