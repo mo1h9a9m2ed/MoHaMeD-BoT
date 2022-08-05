@@ -1093,12 +1093,10 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = `┌─❖
-│「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
+                const menulist = `
+┌─❖│「 Hi👋「${pushname}」
+└┬❖ │How Are You? 😄
 │└────────────┈ ⳹
-│
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -1107,12 +1105,11 @@ const latensie = speed() - timestampe
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
 │𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length.+ 7878}  
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
 │𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
 └┬────────────┈ ⳹
-   │✑  Please Select
-   │✑  The Button Below
+   │✑ Select The Button
    └─────────────┈ ⳹`
    
    //randoming function
@@ -8766,8 +8763,8 @@ title:"I deserve something for my hardwork",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/8737b098fd5702daeb7e0.jpg',
-sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
+mediaUrl: '',
+sourceUrl: ""
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -10587,6 +10584,7 @@ case 'tqtt':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(`Thanks to
+mo1h9a9m2ed
 LORD BUDDHA
 Xeon (Me)
 My family
