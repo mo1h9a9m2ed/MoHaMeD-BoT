@@ -3,12 +3,12 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. mohamed bot MD
+//© 2022 MoHaMeD Bot Inc. mohamed bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe ya
 //codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
+//hai to, description me MoHaMeD ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
 //bhi karna hai apki marzi, thank you!🦄
@@ -18,7 +18,7 @@
 //i give permission to do as long as you
 //put Xeons youtube channel link in the video
 //description and tag me on githuh repo, 
-//thank you🦄
+//thank you🦄😍❤️🥰🕺🌹🧡😇🥲💃🥳👩‍❤️‍👨
 //════════════════════════════//
 
 const fs = require("fs")
@@ -26,9 +26,9 @@ const chalk = require("chalk")
 
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
+global.autoreadpmngc = true //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = true //auto reading in gc (true to on, false to off)
-global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
+global.autoReadAll = true // auto reading in all pchat gc and status (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
@@ -43,21 +43,21 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.owner = ['212678731209'] //ur owner number
 global.ownername = "MoHaMeD"
-global.ytname = "YT: Xeon" //ur yt chanel name
+global.ytname = "BOT NAME: ElJaMjouMi-bot" //ur yt chanel name
 global.socialm = "GMoHaMeDon" //ur github or insta name
 global.location = "India, MoRoCCo" //ur location
 
 //bot bombdy
-global.botname = "superbot" //ur bot name
+global.botname = "😍ElJaMjouMi-bot" //ur bot name
 global.websitex = "https://facebook.com/mo1h9a9m2ed" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
 global.packname = "mohamed bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "🦄Dream Guy Xeon"
+global.author = "🦄Dream Guy ElJaMjouMi-bot"
 global.themeemoji = "🐶"
 global.reactmoji = "😘"
 global.ownertag = ['mohamed'] //ur owner tag
 global.ownernummenu = ['212678731209'] //ur owner number in menu and all
-global.watermark = "Xeon Bot Inc." //ur watermark
+global.watermark = "ElJaMjouMi-bot Bot Inc." //ur watermark
 global.botscript = "https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV"
 global.linkz1 = "https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV"
 global.linkz2 = "https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV"
