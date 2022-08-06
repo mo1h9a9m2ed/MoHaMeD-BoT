@@ -1,3 +1,25 @@
+//════════════════════════════//
+//If you want to recode, reupload
+//or copy the codes/script,
+//pls give credit
+//no credit? i will take action immediately
+//© 2022 Xeon Bot Inc. Cheems Bot MD
+//Thank you to Lord Buddha, Family and Myself
+//════════════════════════════//
+//recode kar ke youtube pe upload kar rhe ya
+//codes copy kar ke apne script me dal rhe
+//hai to, description me xeon ka yt channel
+// ka link paste kr dena as a cradit or github 
+//repo me bhi tag kardena baki jo
+//bhi karna hai apki marzi, thank you!🦄
+//════════════════════════════//
+//If you recode and uploading on your channel
+//or copy pasting the codes in ur script, 
+//i give permission to do as long as you
+//put Xeons youtube channel link in the video
+//description and tag me on githuh repo, 
+//thank you🦄
+//════════════════════════════//
 
 require("./config.js")
 const { default: XeonBotIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
@@ -29,10 +51,10 @@ console.log(color(figlet.textSync('Cheems Bot-MD', {
 	    width: 80,
 		whitespaceBreak: true
         }), 'yellow'))
-console.log(color('\n🐶 YT CHANNEL: MoHaMeD ','silver'))
+console.log(color('\n🐶 YT CHANNEL: Xeon ','silver'))
 console.log(color('🐶 GITHUB: DGXeon ','silver'))
 console.log(color('🐶 WA NUMBER: +916909137213 ','silver'))
-console.log(color('  🦄MoHaMeD Bot Inc. 2022🦄','mediumseagreen'))
+console.log(color('  🦄Xeon Bot Inc. 2022🦄','mediumseagreen'))
     console.log(color('🐶','red'), color('I Wrote This Script By Myself!', 'yellow'))
     console.log(color('🐶','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('🐶','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
@@ -44,7 +66,7 @@ console.log(color('  🦄MoHaMeD Bot Inc. 2022🦄','mediumseagreen'))
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['ElJaMjouMi BoT','Safari','1.0.0'],
+        browser: ['Subscribe Xeon','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -134,7 +156,7 @@ XeonBotInc.ev.on('group-participants.update', async (anu) => {
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'MoHaMeD', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 xeonbody = `┌─❖
 │「 𝗛𝗶 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
@@ -146,7 +168,7 @@ XeonBotInc.ev.on('group-participants.update', async (anu) => {
    │✑ ${xtime} ${xdate}
    └───────────────┈ ⳹`
    //if you copy the code value,
-   //dont forget to put my name(MoHaMeD) as credit
+   //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
@@ -178,7 +200,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'MoHaMeD', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     xeonbody = `┌─❖
 │「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
@@ -190,7 +212,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
    │✑  ${xeontime} ${xeondate}
    └───────────────┈ ⳹`
       //if you copy the code value,
-   //dont forget to put my name(MoHaMeD) as credit
+   //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
 {buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
@@ -559,7 +581,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         return waMessage
     }
 
-//sendlistmsg by MoHaMeD
+//sendlistmsg by xeon
         XeonBotInc.sendListMsg = (jid, text = '', footer = '', title = '' , butText = '', sects = [], quoted) => {
         let sections = sects
         var listMes = {
@@ -623,7 +645,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         }
 
     }
-    //send5butgif by MoHaMeD
+    //send5butgif by xeon
         XeonBotInc.send5ButGif = async (jid , text = '' , footer = '', gif, but = [], options = {}) =>{
         let message = await prepareWAMessageMedia({ video: gif, gifPlayback: true }, { upload: XeonBotInc.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
@@ -638,7 +660,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
             }), options)
             XeonBotInc.relayMessage(jid, template.message, { messageId: template.key.id })
     }
-    //send5butvid by MoHaMeD
+    //send5butvid by xeon
         XeonBotInc.send5ButVid = async (jid , text = '' , footer = '', vid, but = [], options = {}) =>{
         let message = await prepareWAMessageMedia({ video: vid }, { upload: XeonBotInc.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
