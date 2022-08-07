@@ -79,6 +79,7 @@
   "wa-sticker-formatter": "^3.6.0",
   "xfarr-api": "^1.0.3",
   "yargs": "^17.2.1",
+  "yarn.lock": "^0.0.1-security",
   "yt-search": "^2.10.2"
  },
  "directories": {
