@@ -1,4 +1,4 @@
-//════════════════════════════//
+//════════════════════════════//😘🧡😂😅🌹❤️🥲😍🥰👩‍❤️‍👨💃🥳🤢😇🕺😭😒😢😊😀👍🤣🤓
 //If you want to recode, reupload
 //or copy the codes/script,
 //pls give credit
@@ -25,7 +25,7 @@ const fs = require("fs")
 const chalk = require("chalk")
 
 //aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
+global.autoTyping = true //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = true //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = true //auto reading in gc (true to on, false to off)
 global.autoReadAll = true // auto reading in all pchat gc and status (true to on, false to off)
@@ -58,7 +58,8 @@ global.reactmoji = "😘"
 global.ownertag = ['212678731209'] //ur owner tag
 global.ownernummenu = ['212678731209'] //ur owner number in menu and all
 global.watermark = "ElJaMjouMi-BoT"  //ur watermark
-global.botscript = ""
+global.botscript = "https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV"
+global.moha = "https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV"
 global.linkz1 = "https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV"
 global.linkz2 = "https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV"
 global.linkz3 = "https://chat.whatsapp.com/BkRm7ud9osZL1tXAO2iisV"
