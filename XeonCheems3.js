@@ -9414,7 +9414,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}randomimagemenu`
 									},
 										{
-											"title": "Anime Menu 😘",
+											"title": "Anime Menu🌹",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}animemenu`
 										},
