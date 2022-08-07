@@ -1,6 +1,6 @@
 {
  "name": "CheemsBot-MD",
- "description": "Multi Device Whatsapp Bot By MoHaMeD",
+ "description": "Multi Device Whatsapp Bot By Xeon",
  "version": "3.0.0",
  "main": "index.js",
  "type": "commonjs",
@@ -18,7 +18,7 @@
   "bot-md",
   "multi-device"
  ],
- "author": "MoHaMeD",
+ "author": "Xeon",
  "license": "MIT",
  "dependencies": {
   "@adiwajshing/baileys": "^4.0.1",
@@ -85,10 +85,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/mo1h9a9m2ed/CheemsBot-MD3.git"
+  "url": "git+https://github.com/DGXeon/CheemsBot-MD3.git"
  },
  "bugs": {
-  "url": "https://github.com/mo1h9a9m2ed/CheemsBot-MD3/issues"
+  "url": "https://github.com/DGXeon/CheemsBot-MD3/issues"
  },
- "homepage": "https://github.com/mo1h9a9m2ed/CheemsBot-MD3#readme"
+ "homepage": "https://github.com/DGXeon/CheemsBot-MD3#readme"
 }

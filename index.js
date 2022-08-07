@@ -66,7 +66,7 @@ console.log(color('  🦄Xeon Bot Inc. 2022🦄','mediumseagreen'))
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Subscribe Xeon','Safari','1.0.0'],
+        browser: ['EljaMjouMI BOT','Safari','1.0.0'],
         auth: state,
         version
     })
