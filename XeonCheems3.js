@@ -1520,7 +1520,7 @@ const jumlahUser = pendaftar.length
   if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
   
 const menulist = `┌❖「Hi👋「 ${pushname}」
-│❖✑ How Are You? 😄
+└┬❖✑ How Are You? 😄
 ┌┤「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」 
 │└────────────┈ ⳹   
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -1607,6 +1607,10 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
                      }
+
+
+
+              
             break
 
             case 'menuxxx':
@@ -1622,26 +1626,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
                           ]
                           XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
-                          break
 
-
-case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-	if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-teks = `*「 ${global.botname}❤️ 」*\n FaceBook: ${global.websitex} \n\n🔖WhatSapp GR🔖: ${global.botscript}`
-let buttons = [
-{buttonId: `menu`, buttonText: {displayText: '🌺 Menu 🌺'}, type: 1}
-]
-let buttonMessage = {
-image: thum,
-jpegThumbnail: log0,
-caption: teks,
-footer: `${botname}`,
-buttons: buttons,
-headerType: 4,
-}
-XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-}
 break
 case 'me': case 'inventory': case 'profile':{
   if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
@@ -6989,7 +6974,6 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nNama : ${q}\nAnswer : *${t
 					break
 case 'awesomecheck':
   case 'greatcheck':
-    case 'gaycheck':
       case 'cutecheck':
         case 'lesbicheck':
           case 'lesbiancheck':
@@ -7017,7 +7001,6 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
       case 'foolish':
       case 'smart':
       case 'idiot':
-      case 'gay':
       case 'lesbi':
       case 'bastard':
       case 'stubble':
