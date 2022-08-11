@@ -1519,8 +1519,7 @@ const jumlahUser = pendaftar.length
   if (!isInventory){ addInventori(m.sender) }
   if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
   
-const menulist = `
-╭❖「Hi👋「 ${pushname}」
+const menulist = `╭❖「Hi👋「 ${pushname}」
 ╰─┬❖✑ How Are You? 😄
 ╭─┤ 「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」 
 ┃✩│ ╰──⊷─────┈⊷❍⳹ 
@@ -1535,8 +1534,8 @@ const menulist = `
 ┃✩│ 𝗬𝗼𝘂𝗿 𝗟𝗲𝘃𝗲𝗹𝗶𝗻𝗴: ${levelMenu+3445} 
 ┃✩│ 𝗬𝗼𝘂𝗿 𝗫𝗽: ${xpMenu+898}${reqXp+42345}
 ╰────────────┈⊷❍⳹
-   ┃✑Select The Button
-   ╰══════════⊷❍⳹`
+    ┃✑Select The Button
+    ╰══════════⊷❍⳹`
 const qtod = m.quoted? "true":"false"
 
 //randoming function
