@@ -1583,7 +1583,7 @@ switch(command) {
 if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 	let btn = [{urlButton: {displayText: '🍒FaceBook🍒',url: `${websitex}`}},
-   {quickReplyButton: {displayText: 'InFo🥰',       id: 'mohamed' }},
+   {quickReplyButton: {displayText: 'InFo🥰',       id: 'mohamedinf' }},
    {quickReplyButton: {displayText: 'All Menu 🍱',  id: 'allmenu'}},
    {quickReplyButton: {displayText: 'List Menu 🍢', id: 'command'}  },
    {quickReplyButton: {displayText: 'Owner 🤣',id: 'owner'}}]
@@ -1596,7 +1596,7 @@ if      (setbot.templateImage) {XeonBotInc.send5ButImg(m.chat, menulist, global.
  {
 let buttonmenu = [
   	{ urlButton:        { displayText: `🍒FaceBook🍒`, url: `${websitex}` } },
-   {quickReplyButton:  { displayText: 'InFo🥰',id: 'mohamed' }},
+   {quickReplyButton:  { displayText: 'InFo🥰',id: 'mohamedinf' }},
    { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
    { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
    { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
@@ -1613,7 +1613,7 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 let buttonmenu = [
   { urlButton: { displayText: `🍒FaceBook🍒`, url: `${websitex}` } },
-  {quickReplyButton:  { displayText: 'InFo🥰',id: 'mohamed' }},
+  {quickReplyButton:  { displayText: 'InFo🥰',id: 'mohamedinf' }},
    { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
    { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
    { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
@@ -1639,7 +1639,7 @@ let buttonmenu = [
              }
   
 
-case 'mohamedd':
+case 'mohamedinf':
 if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 reply(`╭─❖「Hi👋${pushname}」
@@ -1653,7 +1653,7 @@ reply(`╭─❖「Hi👋${pushname}」
 ╰─┬──────────┈⊷❍⳹
   ┃FB:/mo1h9a9m2ed
   ┃Whats:+212678731209
-  ╰═══════════⊷❍⳹⳹`)
+  ╰═══════════⊷❍⳹`)
 break
                
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
@@ -1704,7 +1704,7 @@ case 'me': case 'inventory': case 'profile':{
   teksehmazeh += `_*${pushname}*_`
   let butRun = [
         { urlButton: { displayText: `🍒FaceBook🍒`, url: `${websitex}` } },
- {quickReplyButton: { displayText: 'InFo🥰', id: 'mohamed' }},
+ {quickReplyButton: { displayText: 'InFo🥰', id: 'mohamedinf' }},
 { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'}},
 { quickReplyButton: { displayText: `Leaderboard 🎢`, id: 'leaderboard'} }
         ]
