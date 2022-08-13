@@ -1653,7 +1653,7 @@ reply(`╭─❖「Hi👋${pushname}」
 ╰─┬──────────┈⊷❍⳹
   ┃FB:/mo1h9a9m2ed
   ┃Whats:+212678731209
-  ╰═══════════⊷❍⳹`)
+  ╰═══════════⊷❍⳹⳹`)
 break
                
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
