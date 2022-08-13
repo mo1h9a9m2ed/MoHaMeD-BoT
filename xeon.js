@@ -1,3 +1,3 @@
 {
-	"name": "MoHaMeD Bot Multi Device V9"
+	"name": "Cheems Bot Multi Device V3"
 }
