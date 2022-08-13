@@ -1645,15 +1645,15 @@ if (isBanChat) return reply(mess.banChat)
 reply(`╭─❖「Hi👋${pushname}」
 ╰┬❖✑ How Are You? 😄
 ╭┤「I'm MoHaMeD ElJaMJouMi」 
-┃✩╰──⊷─────┈⊷❍⳹ 
+┃╰──⊷─────┈⊷❍⳹ 
 ┃✩│Age:  29 ans
 ┃✩│S.Fa:  celebataire
 ┃✩│Numb:  +212678731209
 ┃✩│Domain:  devloper
 ╰─┬──────────┈⊷❍⳹
-  ┃FB:/mo1h9a9m2ed
-  ┃Whats:+212678731209
-  ╰═══════════⊷❍⳹`)
+    ┃FB:/mo1h9a9m2ed
+    ┃Whats:+212678731209
+    ╰═══════════⊷❍⳹`)
 break
                
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
