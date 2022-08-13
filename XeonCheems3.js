@@ -1638,37 +1638,24 @@ let buttonmenu = [
              XeonBotInc.sendMessage(m.chat, { caption: teksehmazeh, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), templateButtons: butRun, mentions: [m.sender] })
              }
   
-  
-   break  
-  
-    case 'mohamedd':{
-       if (isBan) return reply(mess.ban)	 			
-  if (isBanChat) return reply(mess.banChat)
-    if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
-    await sleep(0)
-    let btn = [{
-    quickReplyButton: {
-    displayText: 'Owner 😈',
-    id: 'owner'
-    }
-    }]
-  let dapat =  getDarah(m.sender ,btn)
-  reply(`
-  ╭─❖「Hi👋${pushname}」
-  ╰┬❖✑ How Are You? 😄
-  ╭┤「I'm MoHaMeD ElJaMJouMi」 
-  ┃✩╰──⊷─────┈⊷❍⳹ 
-  ┃✩│Age:  29 ans
-  ┃✩│S.Fa:  celebataire
-  ┃✩│Numb:  +212678731209
-  ┃✩│Domain:  devloper
-  ╰─┬──────────┈⊷❍⳹
-    ┃FB:/mo1h9a9m2ed
-    ┃Whats:+212678731209
-    ╰═══════════⊷❍⳹`)
-  }
-  
+
+case 'mohamedd':
+if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+reply(`╭─❖「Hi👋${pushname}」
+╰┬❖✑ How Are You? 😄
+╭┤「I'm MoHaMeD ElJaMJouMi」 
+┃✩╰──⊷─────┈⊷❍⳹ 
+┃✩│Age:  29 ans
+┃✩│S.Fa:  celebataire
+┃✩│Numb:  +212678731209
+┃✩│Domain:  devloper
+╰─┬──────────┈⊷❍⳹
+  ┃FB:/mo1h9a9m2ed
+  ┃Whats:+212678731209
+  ╰═══════════⊷❍⳹`)
 break
+               
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
