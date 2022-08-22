@@ -8,7 +8,7 @@
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe ya
 //codes copy kar ke apne script me dal rhe
-//hai to, description me mohamed ka yt channel
+//hai to, description me xeon ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
 //bhi karna hai apki marzi, thank you!🦄
@@ -16,7 +16,7 @@
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
 //i give permission to do as long as you
-//put ✩mohamed✩s youtube channel link in the video
+//put Xeons youtube channel link in the video
 //description and tag me on githuh repo, 
 //thank you🦄
 //════════════════════════════//
@@ -135,7 +135,7 @@ let bad = JSON.parse(fs.readFileSync('./src/toxic/bad.json'));
  let _buruan = JSON.parse(fs.readFileSync('./storage/user/bounty.json'));
  let _darahOrg = JSON.parse(fs.readFileSync('./storage/user/blood.json'))
 
-//read database using mongodb and lowdb by ✩mohamed✩
+//read database using mongodb and lowdb by xeon
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.db = new Low(
   /https?:\/\//.test(opts['db'] || '') ?
@@ -296,7 +296,7 @@ const isImage = (m.type === 'imageMessage')
 //rent
 _sewa.expiredCheck(XeonBotInc, sewa)
 
-//group target by ✩mohamed✩\\
+//group target by xeon\\
 const reply = (teks) => {
    XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz1}`}}}, { quoted: m})
         }
@@ -304,7 +304,7 @@ const reply = (teks) => {
         const replay = (teks) => {
    XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
         }
-        //auto reply by ✩mohamed✩
+        //auto reply by xeon
   //if (Autoreply) //remove forwad slashes to make it autoreply on off
         for (let anji of setik){
 				if (budy === anji){
@@ -861,7 +861,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Group Link Detected 」\`\`\`\n\n@
 } else {
 }
 }
-  // Antiwame by mohamed
+  // Antiwame by xeon
   if (antiWame)
   if (budy.includes(`wa.me`)) {
 if (!isBotAdmins) return
@@ -886,7 +886,7 @@ await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube video link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
-//antivirtex by mohamed
+//antivirtex by xeon
   if (antiVirtex) {
   if (budy.length > 3500) {
   reply(`Somebody spammed virus!! Mark as read⚠️\n`.repeat(300))
@@ -895,7 +895,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@
   XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
   }
   }
-//anti bad words by mohamed
+//anti bad words by xeon
 if (antiToxic)
 if (bad.includes(messagesD)) {
 tos = ['Hey, watch your mouth','Never been taught how to speak?','Stop being toxic my friend🤢','Dont be toxic🦄']
@@ -910,7 +910,7 @@ kice = m.sender
 await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 Bad Word Detected 」\`\`\`\n\n@${kice.split("@")[0]} was kicked because of using bad words in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})}
 }
-// AntiLink gc by mohamed
+// AntiLink gc by xeon
 if (AntiLink) {
 if (!isBotAdmins) return
 linkgce = await XeonBotInc.groupInviteCode(from)
@@ -927,7 +927,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Gc Link Detected 」\`\`\`\n\n@${k
 } else {
 }
 }
-//antilink youtube video by mohamed
+//antilink youtube video by xeon
 if (AntiLinkYoutubeVid)
 if (budy.includes("https://youtu.be/")){
 if (!isBotAdmins) return
@@ -940,7 +940,7 @@ await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 YouTube Video Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube video link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
-//antilink youtube channel by mohamed
+//antilink youtube channel by xeon
 if (AntiLinkYoutubeChannel)
    if (budy.includes("https://youtube.com/")){
 if (!isBotAdmins) return
@@ -953,7 +953,7 @@ await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 YouTube Channel Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube channel link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
-//antilink instagram by mohamed
+//antilink instagram by xeon
 if (AntiLinkInstagram)
    if (budy.includes("https://www.instagram.com/")){
 if (!isBotAdmins) return
@@ -966,7 +966,7 @@ await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 Instagram Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending instagram link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
-//antilink facebook by mohamed
+//antilink facebook by xeon
 if (AntiLinkFacebook)
    if (budy.includes("https://facebook.com/")){
 if (!isBotAdmins) return
@@ -979,7 +979,7 @@ await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 Facebook Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending facebook link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
-//antilink telegram by mohamed
+//antilink telegram by xeon
 if (AntiLinkTelegram)
    if (budy.includes("https://t.me/")){
 if (AntiLinkTelegram)
@@ -993,7 +993,7 @@ await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 Telegram Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending telegram link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
-//antilink tiktok by mohamed
+//antilink tiktok by xeon
 if (AntiLinkTiktok)
    if (budy.includes("https://www.tiktok.com/")){
 if (!isBotAdmins) return
@@ -1006,7 +1006,7 @@ await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 Tiktok Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending tiktok link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
-//antilink twitter by mohamed
+//antilink twitter by xeon
 if (AntiLinkTwitter)
    if (budy.includes("https://twitter.com/")){
 if (!isBotAdmins) return
@@ -1019,7 +1019,7 @@ await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 Tiktok Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending twitter link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
-//antilink all by mohamed
+//antilink all by xeon
 if (AntiLinkAll)
    if (budy.includes("https://")){
 if (!isBotAdmins) return
@@ -1033,7 +1033,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Link Detected 」\`\`\`\n\n@${kice
 } else {
 }
 
-//anti viewonce by mohamed
+//anti viewonce by xeon
 if (m.mtype == 'viewOnceMessage') {
 	if (!db.data.chats[m.chat].antionce) return
  teks = `「 *Anti ViewOnce Message* 」
@@ -1386,7 +1386,7 @@ message: {
 }
 }
 }
-//fake gif by mohamed
+//fake gif by xeon
    const fgi = {
 	 key: { 
 fromMe: false,
@@ -1542,25 +1542,25 @@ const jumlahUser = pendaftar.length
   if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
   
   const menulist = `╭❖「Hi👋「 ${pushname}」
-╰─┬❖✑ How Are You? 😄
-╭─┤ 「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」 
-┃✩│ ╰───────┈⊷❍⳹ 
-┃✩│ 𝗦𝗽𝗲𝗲𝗱: ${latensie.toFixed(4)} miliseconds
-┃✩│ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲: ${global.botname}
-┃✩│ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲: ${global.ownername}
-┃✩│ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${global.ownernummenu}
-┃✩│ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿: ${Object.keys(global.db.users).length+445387}
-┃✩│ 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁: ${jumlahcmd+44394}
-┃✩│ 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧:${jumlahharian+4235}
-┃✩│✑「 𝙐𝙎𝙀𝙍'𝙎 𝙇𝙀𝙑𝙀𝙇𝙄𝙉𝙂」
-┃✩│ 𝗬𝗼𝘂𝗿 𝗟𝗲𝘃𝗲𝗹𝗶𝗻𝗴: ${levelMenu+3445} 
-┃✩│ 𝗬𝗼𝘂𝗿 𝗫𝗽: ${xpMenu+898}${reqXp+42345}
-╰────────────┈⊷❍⳹
-      ┃✑Select The Button
-      ╰══════════┈⊷❍⳹`
-const qtod = m.quoted? "true":"false"
-
-//randoming function
+  ╰─┬❖✑ How Are You? 😄
+  ╭─┤ 「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」 
+  ┃✩│ ╰───────┈⊷❍⳹ 
+  ┃✩│ 𝗦𝗽𝗲𝗲𝗱: ${latensie.toFixed(4)} miliseconds
+  ┃✩│ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲: ${global.botname}
+  ┃✩│ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲: ${global.ownername}
+  ┃✩│ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${global.ownernummenu}
+  ┃✩│ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿: ${Object.keys(global.db.users).length+445387}
+  ┃✩│ 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁: ${jumlahcmd+44394}
+  ┃✩│ 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧:${jumlahharian+4235}
+  ┃✩│✑「 𝙐𝙎𝙀𝙍'𝙎 𝙇𝙀𝙑𝙀𝙇𝙄𝙉𝙂」
+  ┃✩│ 𝗬𝗼𝘂𝗿 𝗟𝗲𝘃𝗲𝗹𝗶𝗻𝗴: ${levelMenu+3445} 
+  ┃✩│ 𝗬𝗼𝘂𝗿 𝗫𝗽: ${xpMenu+898}${reqXp+42345}
+  ╰────────────┈⊷❍⳹
+        ┃✑Select The Button
+        ╰══════════┈⊷❍⳹`
+  const qtod = m.quoted? "true":"false"
+  
+  //randoming function
 function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]
 }
@@ -1583,7 +1583,7 @@ switch(command) {
 if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 	let btn = [{urlButton: {displayText: '🍒FaceBook🍒',url: `${websitex}`}},
-   {quickReplyButton: {displayText: 'InFo🥰',       id: 'mohamedinf' }},
+   {quickReplyButton: {displayText: 'InFo🥰',       id: 'mohamed' }},
    {quickReplyButton: {displayText: 'All Menu 🍱',  id: 'allmenu'}},
    {quickReplyButton: {displayText: 'List Menu 🍢', id: 'command'}  },
    {quickReplyButton: {displayText: 'Owner 🤣',id: 'owner'}}]
@@ -1596,7 +1596,7 @@ if      (setbot.templateImage) {XeonBotInc.send5ButImg(m.chat, menulist, global.
  {
 let buttonmenu = [
   	{ urlButton:        { displayText: `🍒FaceBook🍒`, url: `${websitex}` } },
-   {quickReplyButton:  { displayText: 'InFo🥰',id: 'mohamedinf' }},
+   {quickReplyButton:  { displayText: 'InFo🥰',id: 'mohamed' }},
    { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
    { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
    { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
@@ -1613,7 +1613,7 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 let buttonmenu = [
   { urlButton: { displayText: `🍒FaceBook🍒`, url: `${websitex}` } },
-  {quickReplyButton:  { displayText: 'InFo🥰',id: 'mohamedinf' }},
+  {quickReplyButton:  { displayText: 'InFo🥰',id: 'mohamed' }},
    { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
    { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
    { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
@@ -1631,42 +1631,44 @@ let buttonmenu = [
   
        teksehmazeh += ``
        let butRun = [
-        {quickReplyButton: { displayText: 'public', id: 'public' }},
-        { quickReplyButton: { displayText: `previte`, id: 'self'}}
+        {quickReplyButton: { displayText: 'mode public', id: 'public' }},
+        { quickReplyButton: { displayText: `mode :previte`, id: 'self'}}
   
       ]
              XeonBotInc.sendMessage(m.chat, { caption: teksehmazeh, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), templateButtons: butRun, mentions: [m.sender] })
              }
   
-
-case 'mohamedinf':
-if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-  let teksehmazeh = `*select mode*`
   
-  teksehmazeh += ``
-  let butRun = [
-   {quickReplyButton: { displayText: 'public', id: 'public' }},
-   { quickReplyButton: { displayText: `previte`, id: 'self'}}
-
- ]
-  reply(`╭─❖「Hi👋${pushname}」
-╰┬❖✑ How Are You? 😄
-╭┤「I'm MoHaMeD ElJaMJouMi」 
-┃✩╰──⊷─────┈⊷❍⳹ 
-┃✩│Age:  29 ans
-┃✩│S.Fa:  celebataire
-┃✩│Numb:  +212678731209
-┃✩│Domain:  devloper
-╰─┬──────────┈⊷❍⳹
-  ┃FB:/mo1h9a9m2ed
-  ┃Whats:+212678731209
-  ╰═══════════⊷❍⳹`
+   break  
   
-
-  )
+    case 'mohamedd':{
+       if (isBan) return reply(mess.ban)	 			
+  if (isBanChat) return reply(mess.banChat)
+    if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
+    await sleep(0)
+    let btn = [{
+    quickReplyButton: {
+    displayText: 'Owner 😈',
+    id: 'owner'
+    }
+    }]
+  let dapat =  getDarah(m.sender ,btn)
+  reply(`
+  ╭─❖「Hi👋${pushname}」
+  ╰┬❖✑ How Are You? 😄
+  ╭┤「I'm MoHaMeD ElJaMJouMi」 
+  ┃✩╰──⊷─────┈⊷❍⳹ 
+  ┃✩│Age:  29 ans
+  ┃✩│S.Fa:  celebataire
+  ┃✩│Numb:  +212678731209
+  ┃✩│Domain:  devloper
+  ╰─┬──────────┈⊷❍⳹
+    ┃FB:/mo1h9a9m2ed
+    ┃Whats:+212678731209
+    ╰═══════════⊷❍⳹`)
+  }
+  
 break
-               
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
@@ -1715,7 +1717,7 @@ case 'me': case 'inventory': case 'profile':{
   teksehmazeh += `_*${pushname}*_`
   let butRun = [
         { urlButton: { displayText: `🍒FaceBook🍒`, url: `${websitex}` } },
- {quickReplyButton: { displayText: 'InFo🥰', id: 'mohamedinf' }},
+ {quickReplyButton: { displayText: 'InFo🥰', id: 'mohamed' }},
 { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'}},
 { quickReplyButton: { displayText: `Leaderboard 🎢`, id: 'leaderboard'} }
         ]
@@ -4753,7 +4755,7 @@ break
 case 'mcserver': case 'mcquery': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-if (!args.join(" ")) return replay(`Example : \n${prefix + command} ip|port\nUses : \n${prefix + command} play.mohamed.com|19132`)
+if (!args.join(" ")) return replay(`Example : \n${prefix + command} ip|port\nUses : \n${prefix + command} play.xeon.com|19132`)
 const Query = require("minecraft-query");
 
 const qury = args.join(" ")
@@ -6955,30 +6957,106 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
 					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = xeony[Math.floor(Math.random() * xeony.length)]
 					XeonBotInc.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
-break
-case 'stupid': case 'foolish': case 'smart': case 'idiot': case 'gay': case 'lesbi': case 'bastard': case 'stubble': case 'dog': case 'fuck': 
-case 'ape': case 'noob': case 'great': case 'horny': case 'wibu': case 'asshole': case 'handsome': case 'beautiful': case 'cute': case 'kind':
-case 'ugly': case 'pretty': case 'lesbian': case 'randi': case 'gandu': case 'madarchod': case 'kala': case 'gora': case 'chutiya': case 'nibba':
-case 'nibbi': case 'bhosdiwala': case 'chutmarika': case 'bokachoda': case 'suarerbaccha': case 'bolochoda': case 'muthal': case 'muthbaaz':
-case 'randibaaz': case 'topibaaz': case 'cunt': case 'nerd': case 'behenchod': case 'behnchoda': case 'bhosdika': case 'nerd': case 'mc':
-case 'bsdk': case 'bhosdk': case 'nigger': case 'loda': case 'laund': case 'nigga': case 'noobra': case 'tharki': case 'nibba': case 'nibbi':
-case 'mumu': case 'rascal': case 'scumbag': case 'nuts': case 'comrade': case 'fagot': case 'scoundrel': case 'ditch': case 'dope': 
-case 'gucci': case 'lit': case 'dumbass': case 'sexy': case 'crackhead': case 'mf': case 'motherfucker': case 'dogla': case 'bewda': case 'boka':
-case 'khanki': case 'bal': case 'sucker': case 'fuckboy': case 'playboy': case 'fuckgirl': case 'playgirl': case 'bc': case 'hot': 
-  { if (isBan) return reply(mess.ban)
-    if (isBanChat) return reply(mess.banChat)
-    if (!m.isGroup) return replay(`${mess.group}`)
-  let member = participants.map(u => u.id)
-  let me = m.sender
-  let jodoh = member[Math.floor(Math.random() * member.length)]
-  let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
-  let ments = [me, jodoh]
-  let buttons = [
-    { buttonId: '👀', buttonText: { displayText: '👀😂' }, type: 1 }
- ]
- await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
-  }
-  break
+				     break
+  case 'stupid':
+      case 'foolish':
+      case 'smart':
+      case 'idiot':
+      case 'gay':
+      case 'lesbi':
+      case 'bastard':
+      case 'stubble':
+      case 'dog':
+      case 'fuck':
+      case 'ape':
+      case 'noob':
+      case 'great':
+      case 'horny':
+      case 'wibu':
+      case 'asshole':
+      case 'handsome':
+      case 'beautiful':
+      case 'cute':
+      case 'kind':
+      case 'ugly':
+      case 'pretty':
+      case 'lesbian':
+      case 'randi':
+      case 'gandu':
+      case 'madarchod':
+      case 'kala':
+      case 'gora':
+      case 'chutiya':
+      case 'nibba':
+      case 'nibbi':
+      case 'bhosdiwala':
+      case 'chutmarika':
+      case 'bokachoda':
+      case 'suarerbaccha':
+      case 'bolochoda':
+      case 'muthal':
+      case 'muthbaaz':
+      case 'randibaaz':
+      case 'topibaaz':
+      case 'cunt':
+      case 'nerd':
+      case 'behenchod':
+      case 'behnchoda':
+      case 'bhosdika':
+      case 'nerd':
+      case 'mc':
+      case 'bsdk':
+      case 'bhosdk':
+      case 'nigger':
+      case 'loda':
+      case 'laund':
+      case 'nigga':
+      case 'noobra':
+      case 'tharki':
+      case 'nibba':
+      case 'nibbi':
+      case 'mumu':
+      case 'rascal':
+      case 'scumbag':
+      case 'nuts':
+      case 'comrade':
+      case 'fagot':
+      case 'scoundrel':
+      case 'ditch':
+      case 'dope':
+      case 'gucci':
+      case 'lit':
+      case 'dumbass':
+      case 'sexy':
+      case 'crackhead':
+      case 'mf':
+      case 'motherfucker':
+      case 'dogla':
+      case 'bewda':
+      case 'boka':
+      case 'khanki':
+      case 'bal':
+      case 'sucker':
+      case 'fuckboy':
+      case 'playboy':
+      case 'fuckgirl':
+      case 'playgirl':
+      case 'bc':
+      case 'hot': {
+      	   	if (isBan) return reply(mess.ban)
+	if (isBanChat) return reply(mess.banChat)
+   if (!m.isGroup) return replay(`${mess.group}`)
+   let member = participants.map(u => u.id)
+   let me = m.sender
+   let jodoh = member[Math.floor(Math.random() * member.length)]
+   let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
+   let ments = [me, jodoh]
+   let buttons = [
+      { buttonId: '👀', buttonText: { displayText: '👀😂' }, type: 1 }
+  ]
+  await XeonBotInc.sendButtonText(m.chat, buttons, jawab, botname, m, {mentions: ments})
+   }
+   break
  case 'dare':
  if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
@@ -7053,7 +7131,7 @@ case 'khanki': case 'bal': case 'sucker': case 'fuckboy': case 'playboy': case '
     "shout you bastard in front of your mom/papa",
     "change the name to i am idiot for 24 hours",
     "slap urself firmly and send the sound of slap through voice note😂",
-    "say i love the bot owner mohamed through voice note",
+    "say i love the bot owner xeon through voice note",
     "send your gf/bf pic here",
     "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
     "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -7144,7 +7222,7 @@ case 'khanki': case 'bal': case 'sucker': case 'fuckboy': case 'playboy': case '
     "Mention the incident that makes you hurt that you still remember",
     "what achievements have you got this year?",
     "what was your worst habit at school?",
-    "do you love the bot creator, mohamed?ðŸ¦„",
+    "do you love the bot creator, xeon?ðŸ¦„",
     "have you ever thought of taking revenge from ur teacher?",
     "do you like current prime minister of ur country",
     "you non veg or veg",
@@ -9363,7 +9441,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
       if (isBan) return reply(mess.ban)
    if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'All Menu')
-await XeonBotInc.send5ButImg(from, `╭════〘OWNER〙══⊷❍
+await XeonBotInc.send5ButImg(from, `
+╭════〘OWNER〙══⊷❍
 ┃✩╭────────────────⊷		
 ┃✩│${prefix} antitag
 ┃✩│${prefix} rentbot [add/del]
@@ -10309,7 +10388,8 @@ case 'downloadmenu':
       if (isBan) return reply(mess.ban)
    if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Download Menu')
-await XeonBotInc.send5ButImg(from, `╭════〘DOWNLOAD〙══⊷❍
+await XeonBotInc.send5ButImg(from, `
+╭════〘DOWNLOAD〙══⊷❍
 ┃✩╭───────────────⊷
 ┃✩│${prefix} instagram [url]
 ┃✩│${prefix} igtv [url]
@@ -10461,7 +10541,8 @@ case 'stickermenu':
       if (isBan) return reply(mess.ban)
    if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Sticker Menu')
-await XeonBotInc.send5ButImg(from, `╭════〘STICKER〙══⊷❍
+await XeonBotInc.send5ButImg(from, `
+╭════〘STICKER〙══⊷❍
 ┃✩╭───────────────⊷
 ┃✩│${prefix} patrick
 ┃✩│${prefix} emoji
@@ -10477,7 +10558,7 @@ case 'animestickermenu':
       if (isBan) return reply(mess.ban)
    if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Anime Sticker Menu')
-await XeonBotInc.send5ButImg(from, `╭═══〘ANIME STICKER〙══⊷❍
+await XeonBotInc.send5ButImg(from, `╭════〘ANIME STICKER〙══⊷❍
 ┃✩╭───────────────⊷
 ┃✩│${prefix} loli
 ┃✩│${prefix} bully
@@ -10906,7 +10987,8 @@ case 'indohoroscopemenu':
       if (isBan) return reply(mess.ban)
    if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Indo Horoscope Menu')
-await XeonBotInc.send5ButImg(from, `╭══〘INDO HOROSCOPE〙═══⊷❍
+await XeonBotInc.send5ButImg(from, `
+╭══〘INDO HOROSCOPE〙═══⊷❍
 ┃✩╭───────────────⊷
 ┃✩│${prefix} nomorhoki
 ┃✩│${prefix} artimimpi 
